@@ -1,0 +1,134 @@
+
+body { font-family: 'Roboto', 'Helvetica', Arial, 'Trebuchet MS', sans-serif;
+       font-size: 118%;
+       background-color: rgb(255, 251, 242);
+    
+
+}
+
+header { background-color: rgb(212, 212, 212);
+    font-style: normal;
+    text-align: center;
+       
+
+}
+
+nav { display: inline-block;
+      width: 80%;
+      font-style: normal;
+
+ }
+
+ .nav-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 30px; 
+
+
+ }
+
+ .flex-wrapping { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+ }
+
+
+
+#image-container img { width: 10%;
+position: relative;
+top:20px;
+    
+}   
+
+ main { background-color: rgb(255, 255, 84);
+    
+
+ }
+
+
+ 
+ .grid-container {  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+    width: 80%;
+    
+    
+ }
+
+ .grid-container img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+ }
+
+
+ .flex-wrapping-park {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+ }
+
+
+ .grid-container-park { 
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    gap: 60px;
+    
+    
+ }    
+
+ .grid-container-park img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+ }
+
+
+
+
+ h1 { font-family: 'Roboto', 'Trebuchet MS', sans-serif;
+      text-align: center;
+      color: rgb(4, 0, 133);
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+ }
+
+
+li { 
+     
+    
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+
+p { line-height: 120%;
+    font-weight: 500;
+       
+
+}
+
+footer { background-color:  rgb(212, 212, 212);
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+
+
